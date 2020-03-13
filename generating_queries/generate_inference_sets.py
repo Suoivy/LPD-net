@@ -65,7 +65,7 @@ base_path= "../../benchmark_datasets/"
 folders=[]
 index_list=[0]    # Need to be modified to find the folder you want (folders for name and index_list for index)
 runs_folder = "oxford/"
-featurecloud_fols = "/featurecloud_20m/"
+featurecloud_fols = "/featurecloud_20m_10overlap/"
 all_folders=sorted(os.listdir(os.path.join(BASE_DIR,base_path,runs_folder)))
 
 for index in index_list:

@@ -169,7 +169,7 @@ def build_neighbors_KDT(k, args):
 def prepare_file(pointcloud_file, args):
 	### Parallel process pointcloud files
 	# load pointcloud file
-	pointcloud = np.fromfile(pointcloud_file, dtype=np.float32)
+	pointcloud = np.fromfile(pointcloud_file, dtype=np.float64)
 	pointcloud = np.reshape(pointcloud, (pointcloud.shape[0]//3, 3))
 	args.pointcloud = pointcloud
 

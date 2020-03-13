@@ -58,6 +58,7 @@ source ~/tensorflow/bin/activate
 easy_install -U pip
 pip3 install --upgrade tensorflow-gpu==1.4.0
 pip install scipy, pandas, sklearn
+pip install glog
 ```
 ### Dataset set-up
 Download the zip file of the benchmark datasets found [here](https://drive.google.com/open?id=1H9Ep76l8KkUpwILY-13owsEMbVCYTmyx). Extract the folder on the same directory as the project code. Thus, on that directory you must have two folders: 1) benchmark_datasets/ and 2) LPD_net/
