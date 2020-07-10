@@ -7,8 +7,8 @@ import pickle
 import random
 
 #####For training and test data split#####
-x_width=1.5
-y_width=1.5
+x_width=150
+y_width=150
 
 #For Oxford
 p1=[5735712.768124,620084.402381]
